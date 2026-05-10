@@ -1,1 +1,28 @@
+# Binaries / build output
 directives-parse
+*.exe
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Coverage / profiling
+coverage.txt
+coverage.out
+*.prof
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Agent / internal-tooling artifacts (keep public repo clean)
+.agentrc/
+agentrc.yaml
+agentrc.yml
+.claude/
+CLAUDE.md
+AGENTS.md
+AUDIT_RESULTS.md
