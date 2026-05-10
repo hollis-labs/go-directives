@@ -1,9 +1,3 @@
-// Package directives implements a parser for chat directives — inline :: commands
-// embedded in conversation text. It lexes directives, maintains a context stack,
-// resolves config cascading, and computes deterministic hashes for idempotency.
-//
-// The parser is a pure library with no side effects. It takes text in and emits
-// structured Directive values. All execution logic lives in the consumer.
 package directives
 
 // Category classifies a directive.

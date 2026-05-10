@@ -1,3 +1,3 @@
 module github.com/hollis-labs/go-directives
 
-go 1.25.0
+go 1.26.1
