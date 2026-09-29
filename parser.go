@@ -27,9 +27,9 @@ func Parse(input string, cfg ParserConfig) ParseResult {
 	tokens := lex(input, aliases)
 
 	var (
-		result    ParseResult
-		ctxStack  stack
-		cfgStack  configStack
+		result     ParseResult
+		ctxStack   stack
+		cfgStack   configStack
 		lastAction int // line after the last completed action (for full-conversation fallback)
 	)
 
