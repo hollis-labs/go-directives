@@ -1,5 +1,15 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+### Changed
+
+- Maintained development moved to [github.com/hollis-labs/libs/ui-go/directives](https://github.com/hollis-labs/libs/tree/ui-go%2Fv0.1.0/ui-go/directives) in
+  `github.com/hollis-labs/libs/ui-go@v0.1.0` (`ui-go/v0.1.0`).
+- This standalone repository is retired after the replacement release was
+  verified fetchable with successful module CI. README migration instructions
+  identify the new import prefix; existing standalone tags and history are preserved.
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
