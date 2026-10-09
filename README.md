@@ -1,5 +1,22 @@
 # go-directives
 
+## Maintenance moved to `github.com/hollis-labs/libs/ui-go`
+
+This standalone repository is retired. Maintained source and documentation are
+in [github.com/hollis-labs/libs/ui-go/directives](https://github.com/hollis-labs/libs/tree/ui-go%2Fv0.1.0/ui-go/directives), released in **`ui-go/v0.1.0`**.
+Install the replacement module:
+
+```sh
+go get github.com/hollis-labs/libs/ui-go@v0.1.0
+```
+
+Replace the `github.com/hollis-labs/go-directives` import prefix with
+`github.com/hollis-labs/libs/ui-go/directives`, retaining the package subpath. Review the replacement documentation
+for any API changes before migrating. Existing standalone tags and history remain
+available; old module pins do not automatically redirect to the new module.
+
+The documentation below describes historical standalone usage.
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/hollis-labs/go-directives.svg)](https://pkg.go.dev/github.com/hollis-labs/go-directives)
 
 A pure-Go parser for **chat directives** — inline `::` commands embedded in
